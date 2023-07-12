@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
         alarmManager.setRepeating(
             AlarmManager.RTC_WAKEUP,
             System.currentTimeMillis(),
-            AlarmManager.INTERVAL_HALF_HOUR,
+            AlarmManager.INTERVAL_FIFTEEN_MINUTES,
             pendingIntent
         )
     }
